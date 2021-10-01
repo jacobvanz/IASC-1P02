@@ -1,0 +1,12 @@
+body{
+  background-color: blue;
+}
+.bord{
+  border: 3px solid black;
+  margin-left: 200px;
+  margin-top: 200px
+}
+p{
+  color: orange;
+  border: 1px dashed green;
+}
