@@ -1,0 +1,38 @@
+.bord{
+  border: 5px dotted purple;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.orangetxt{
+  color: orange;
+  font-size: 40px;
+}
+.redtxt{
+  color: red;
+  vertical-align: super;
+}
+.orangered{
+  margin-top: 30px;
+}
+.content{
+  text-align: center;
+  font-size: 20px;
+}
+.greentxt{
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+.purpletxt{
+  color: purple;
+  font-size: 9px;
+  text-align: right;
+}
+.yellowtxt{
+  color: yellow;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: right;
+}

@@ -2,11 +2,17 @@ body{
   background-color: blue;
 }
 .bord{
-  border: 3px solid black;
+  border: 4px solid black;
   margin-left: 200px;
   margin-top: 200px
 }
 p{
   color: orange;
   border: 1px dashed green;
+  margin: 15px;
+  padding: 4px;
+}
+img{
+  border: 2px dashed yellow;
+  padding: 10px;
 }
