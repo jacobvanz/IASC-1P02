@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+}
+#wrapper{
+  width: 1000px;
+  margin: auto;
+  height: 600px;
+  background-color: green;
+  z-index: 1;
+
+}
+#content1{
+  background-color: blue;
+  height: 180px;
+  width: 200px;
+  padding-top: 20px;
+  position: relative;
+  left: 120px;
+  z-index: 4;
+  top: 20px;
+}
+#content2{
+  background-color: red;
+  height: 180px;
+  width: 200px;
+  padding-top: 20px;
+  position: relative;
+  top: -180px;
+  float: right;
+  right: 120px;
+}
+#content3{
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  z-index: 4;
+
+}
