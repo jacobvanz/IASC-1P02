@@ -1,0 +1,61 @@
+.redtxt{
+  color: red;
+}
+.bigtxt{
+  font-size: 60px;
+}
+.weirdtxt{
+  font-family: "Brush Script MT", Brush Script, fantasy;
+}
+.capstxt{
+  text-transform: uppercase;
+}
+
+body{
+  background-color: grey;
+}
+#wrapper{
+  width: 750px;
+  margin: auto;
+}
+#header{
+  background-color: red;
+  height: 50px;
+  width: 750px;
+  font-size: 40px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 5;
+}
+#leftnav{
+  background-color: pink;
+  float: left;
+  width: 250px;
+  height: 100px;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+
+}
+#rightnav{
+  background-color: gold;
+  float: left;
+  width: 500px;
+  height: 100px;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+}
+#leftbody{
+  background-color: white;
+  height: 500px;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+}
+#footer{
+  font-weight: bold;
+  background-color: yellow;
+  position: relative;
+  top: 150px;
+}
