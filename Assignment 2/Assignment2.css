@@ -18,10 +18,13 @@ img{
   height: 100px;
   width:auto;
 }
-h1,h2{
+h1,h2,.greentxt{
   color: green;
 }
-.special li{
+.special{
+  height: 20px;
+}
+.special p{
   color: gold;
   font-style: italic;
 }
