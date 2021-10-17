@@ -14,6 +14,17 @@
 body{
   background-color: grey;
 }
+img{
+  height: 100px;
+  width:auto;
+}
+h1,h2{
+  color: green;
+}
+.special li{
+  color: gold;
+  font-style: italic;
+}
 #wrapper{
   width: 750px;
   margin: auto;
@@ -33,6 +44,7 @@ body{
   width: 250px;
   height: 100px;
   font-weight: bold;
+  padding-top: 50px;
   position: relative;
   top: 50px;
 
@@ -43,12 +55,13 @@ body{
   width: 500px;
   height: 100px;
   font-weight: bold;
+  padding-top: 50px;
   position: relative;
   top: 50px;
 }
 #leftbody{
   background-color: white;
-  height: 500px;
+  height: 2000px;
   font-weight: bold;
   position: relative;
   top: 150px;
@@ -56,6 +69,7 @@ body{
 #footer{
   font-weight: bold;
   background-color: yellow;
-  position: relative;
-  top: 150px;
+  width: 750px;
+  position: absolute;
+  bottom: auto;
 }
