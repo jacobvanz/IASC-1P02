@@ -20,7 +20,21 @@
 			<p><a href="Assignment4.html">Return To Main Page</a></p>
 		</div>
 		<div id="body">
-			APA Citation Machine goes here
+
+			<form name = "APA Citation">
+				<input type="text" name="Author Last Name" id="Author Last Name" value="Author Last Name" class = "form"/>
+				<input type="text" name="Author Initials" id="Author Initials" value="Author Initials" class = "form"/>
+				<input type="text" name="Year of publication" id="Year of publication" value="Year of publication" class = "form"/>
+				<input type="text" name="Title of Work" id="Title of Work" value="Title of Work" class = "form"/>
+				<input type="text" name="Publisher" id="Publisher" value="Publisher" class = "form"/>
+				<input type="text" name="DOI" id="DOI" value="DOI If Available" class = "form"/>
+				<button type ="button" onclick="APA()" class = "button2">Click Me for Citation</button>
+			</form>
+
+			<p id ="output1"> Citation here </p>
+
+
+
 		 </div>
 		<div id="footer">For more information on APA citation head to <a href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html">OWL Purdue</a></div>
 	</div>
