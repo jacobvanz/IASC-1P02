@@ -32,3 +32,6 @@ function MLA() {
   document.getElementById("output1").innerHTML=authorLastName + ", " + authorFirstName + ". " + titleOfWorkItalics + ". " + publisher + ", " + yearOfPublication + ".";
 
 }
+
+
+//test//
