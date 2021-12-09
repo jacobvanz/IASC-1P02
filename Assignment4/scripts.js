@@ -7,10 +7,10 @@ function date() {
   document.getElementById("date").innerHTML=monthsSinceApril;
 }
 function APA() {
-  var authorLastName = document.getElementById("Author Last Name").value;
-  var authorInitials = document.getElementById("Author Initials").value;
-  var yearOfPublication = document.getElementById("Year of publication").value;
-  var titleOfWork = document.getElementById("Title of Work").value;
+  var authorLastName = document.getElementById("AuthorLastName").value;
+  var authorInitials = document.getElementById("AuthorInitials").value;
+  var yearOfPublication = document.getElementById("YearOfPublication").value;
+  var titleOfWork = document.getElementById("TitleOfWork").value;
   var titleOfWorkItalics = titleOfWork.italics();
   var publisher = document.getElementById("Publisher").value;
   var doi = document.getElementById("DOI").value;
@@ -22,12 +22,12 @@ function APA() {
 
 }
 function MLA() {
-  var authorLastName = document.getElementById("Author Last Name").value;
-  var authorFirstName = document.getElementById("Author First Name").value;
-  var titleOfWork = document.getElementById("Title of Work").value;
+  var authorLastName = document.getElementById("AuthorLastName").value;
+  var authorFirstName = document.getElementById("AuthorFirstName").value;
+  var titleOfWork = document.getElementById("TitleOfWork").value;
   var titleOfWorkItalics = titleOfWork.italics();
   var publisher = document.getElementById("Publisher").value;
-  var yearOfPublication = document.getElementById("Year of publication").value;
+  var yearOfPublication = document.getElementById("YearOfPublication").value;
 
   document.getElementById("output1").innerHTML=authorLastName + ", " + authorFirstName + ". " + titleOfWorkItalics + ". " + publisher + ", " + yearOfPublication + ".";
 
